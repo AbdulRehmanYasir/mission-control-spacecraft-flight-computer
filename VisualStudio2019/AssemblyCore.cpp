@@ -13,7 +13,7 @@
 // inside __asm blocks are compiler-version-fragile in practice,
 // so every routine here copies the C++-side struct fields it
 // needs into plain local variables (or writes results into plain
-; locals) BEFORE/AFTER the __asm block, and does only register-
+// locals) BEFORE/AFTER the __asm block, and does only register-
 // and-plain-variable work inside the block itself. That keeps
 // every instruction here a real, unambiguous 32-bit x86
 // instruction rather than a compiler-specific member-access
