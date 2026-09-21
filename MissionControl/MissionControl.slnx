@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="MissionControl/MissionControl.vcxproj" Id="825fcebc-67f1-4665-91cb-24c7e1cd0f46" />
+</Solution>
